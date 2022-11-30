@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lemonchiffon;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.greeting {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #444;
+    padding: 2em;
+    box-shadow: 2px 1px 1px maroon;
+}
+
+.greeting h1 {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    font-size: 1.75em;
+}
+
+.greeting p {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.highlight {
+    color: maroon;
+}
+
+@media screen and (min-width: 760px) {
+    .greeting {
+        font-size: 1.5em;
+    }
+}
